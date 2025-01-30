@@ -1,0 +1,17 @@
+package main.circular_linked_list.task_schedular;
+
+public class Task {
+    int taskId;
+    String taskName;
+    int priority;
+    String dueDate;
+    Task next; // Reference to the next task
+
+    public Task(int taskId, String taskName, int priority, String dueDate) {
+        this.taskId = taskId;
+        this.taskName = taskName;
+        this.priority = priority;
+        this.dueDate = dueDate;
+        this.next = null;
+    }
+}
